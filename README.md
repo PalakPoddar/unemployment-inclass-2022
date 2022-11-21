@@ -80,6 +80,15 @@ python -m app.stocks_email
 APP_ENV="production" DEFAULT_SYMBOL="GOOGL" python -m app.stocks_email
 ```
 
+### Web App
+
+Run the web app (then view in the browser at http://localhost:5000/):
+```sh
+# Mac OS:
+FLASK_APP=web_app flask run
+
+
+
 ## Testing
 
 Run tests:
